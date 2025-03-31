@@ -1,16 +1,42 @@
+body{
+    font-family: Manrope;
+    font-weight: 700;
+}
 .button{
-    width: 100px;
-    height: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    font-family: Manrope;
     background-color: blue;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin: 0 auto;
 
 }
 .container{
     max-width: 1400px;
+    width: 600px;
     margin: 0 auto;
     padding: 5px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.counter{
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.buttonReset{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    font-family: Manrope;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
 }
